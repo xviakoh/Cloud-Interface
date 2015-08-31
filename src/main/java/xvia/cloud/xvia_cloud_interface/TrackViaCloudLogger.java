@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class TrackViaCloudLogger {
-	protected List<String> logs = new ArrayList<>();
+	protected List<String> logs = new ArrayList<String>();
 	
 	public TrackViaCloudLogger() {}
 	
