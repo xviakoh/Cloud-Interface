@@ -6,6 +6,8 @@ public class TrackViaCloudResponse {
 
 	TrackViaCloudLogger logger;
 	
+	String errorMessage;
+	
 	public TrackViaCloudResponse() {}
 	
 	public TrackViaCloudResponse(Boolean status, String data) {
@@ -35,5 +37,13 @@ public class TrackViaCloudResponse {
 
 	public void setLogger(TrackViaCloudLogger logger) {
 		this.logger = logger;
+	}
+
+	public String getErrorMessage() {
+		return errorMessage;
+	}
+
+	public void setErrorMessage(String errorMessage) {
+		this.errorMessage = errorMessage;
 	}
 }
